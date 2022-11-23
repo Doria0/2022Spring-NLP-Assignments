@@ -1,5 +1,5 @@
 # 2022Spring-NLP-Assignments
-> This assignment is originally a group work; for this repository I committed codes from my part of work, while reports are still integrations.
+> This assignment is originally a group work. For this repository I committed codes from my part of work, while reports are still integrations. The primary repo is on Gitee.
 
 ## Contents
 
