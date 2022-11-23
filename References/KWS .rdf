@@ -1,0 +1,2557 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="#item_227">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>77</prism:volume>
+                <dc:title>PROCEEDINGS OF THE IEEE</dc:title>
+                <prism:number>2</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rabiner</foaf:surname>
+                        <foaf:givenName>Lawrence R</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_226"/>
+        <dc:subject>Tutorial</dc:subject>
+        <dc:title>A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition</dc:title>
+        <dc:date>1989</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>30</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_226">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/226/Rabiner - 1989 - A Tutorial on Hidden Markov Models and Selected Ap.pdf"/>
+        <dc:title>Rabiner - 1989 - A Tutorial on Hidden Markov Models and Selected Ap.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://courses.physics.illinois.edu/ece417/fa2017/rabiner89.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-05 14:23:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.isca-speech.org/archive/interspeech_2018/bae18_interspeech.html">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Interspeech 2018</dc:title>
+                <dc:identifier>DOI 10.21437/Interspeech.2018-1888</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ISCA</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bae</foaf:surname>
+                        <foaf:givenName>Jaesung</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Dae-Shik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_238"/>
+        <dc:title>End-to-End Speech Command Recognition with Capsule Network</dc:title>
+        <dcterms:abstract>In recent years, neural networks have become one of the common approaches used in speech recognition(SR), with SR systems based on Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) achieving the state-of-the-art results in various SR benchmarks. Especially, since CNNs are capable of capturing the local features effectively, they are applied to tasks which have relatively short-term dependencies, such as keyword spotting or phoneme-level sequence recognition. However, one limitation of CNNs is that, with maxpooling, they do not consider the pose relationship between low-level features. Motivated by this problem, we apply the capsule network to capture the spatial relationship and pose information of speech spectrogram features in both frequency and time axes. We show that our proposed end-to-end SR system with capsule networks on one-second speech commands dataset achieves better results on both clean and noise-added test than baseline CNN models.</dcterms:abstract>
+        <dc:date>2018-9-2</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.isca-speech.org/archive/interspeech_2018/bae18_interspeech.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-05 14:39:56</dcterms:dateSubmitted>
+        <bib:pages>776-780</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Interspeech 2018</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_238">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/238/Bae and Kim - 2018 - End-to-End Speech Command Recognition with Capsule.pdf"/>
+        <dc:title>Bae and Kim - 2018 - End-to-End Speech Command Recognition with Capsule.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://web.archive.org/web/20190223060521id_/http://pdfs.semanticscholar.org/42e7/7433f695441876e16b678914b69f0a00910b.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-05 14:39:51</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1804.03209">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:1804.03209 [cs]</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Warden</foaf:surname>
+                        <foaf:givenName>Pete</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_247"/>
+        <link:link rdf:resource="#item_248"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Human-Computer Interaction</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition</dc:title>
+        <dcterms:abstract>Describes an audio dataset of spoken words designed to help train and evaluate keyword spotting systems. Discusses why this task is an interesting challenge, and why it requires a specialized dataset that is different from conventional datasets used for automatic speech recognition of full sentences. Suggests a methodology for reproducible and comparable accuracy metrics for this task. Describes how the data was collected and verified, what it contains, previous versions and properties. Concludes by reporting baseline results of models trained on this dataset.</dcterms:abstract>
+        <dc:date>2018-04-09</dc:date>
+        <z:shortTitle>Speech Commands</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1804.03209</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-05 14:41:21</dcterms:dateSubmitted>
+        <dc:description>arXiv: 1804.03209</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_247">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/247/Warden - 2018 - Speech Commands A Dataset for Limited-Vocabulary .pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/1804.03209.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-05 14:41:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_248">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/248/1804.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1804.03209</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-05 14:41:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2004.08531">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:2004.08531 [eess]</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Majumdar</foaf:surname>
+                        <foaf:givenName>Somshubra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ginsburg</foaf:surname>
+                        <foaf:givenName>Boris</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_255"/>
+        <link:link rdf:resource="#item_256"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>MatchboxNet: 1D Time-Channel Separable Convolutional Neural Network Architecture for Speech Commands Recognition</dc:title>
+        <dcterms:abstract>We present an MatchboxNet - an end-to-end neural network for speech command recognition. MatchboxNet is a deep residual network composed from blocks of 1D time-channel separable convolution, batch-normalization, ReLU and dropout layers. MatchboxNet reaches state-of-the-art accuracy on the Google Speech Commands dataset while having significantly fewer parameters than similar models. The small footprint of MatchboxNet makes it an attractive candidate for devices with limited computational resources. The model is highly scalable, so model accuracy can be improved with modest additional memory and compute. Finally, we show how intensive data augmentation using an auxiliary noise dataset improves robustness in the presence of background noise.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:shortTitle>MatchboxNet</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2004.08531</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-08 12:37:16</dcterms:dateSubmitted>
+        <dc:description>INTERSPEECH 2020</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_255">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/255/Majumdar and Ginsburg - 2020 - MatchboxNet 1D Time-Channel Separable Convolution.pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2004.08531.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-08 12:37:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_256">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/256/2004.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2004.08531</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-08 12:37:38</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2009.03658">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:2009.03658 [cs, eess]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Bo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Wenfeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Qingyuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhuang</foaf:surname>
+                        <foaf:givenName>Weiji</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chu</foaf:surname>
+                        <foaf:givenName>Xiangxiang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Yujun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_277"/>
+        <link:link rdf:resource="#item_278"/>
+        <link:link rdf:resource="#item_279"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>AutoKWS: Keyword Spotting with Differentiable Architecture Search</dc:title>
+        <dcterms:abstract>Smart audio devices are gated by an always-on lightweight keyword spotting program to reduce power consumption. It is however challenging to design models that have both high accuracy and low latency for accurate and fast responsiveness. Many efforts have been made to develop end-to-end neural networks, in which depthwise separable convolutions, temporal convolutions, and LSTMs are adopted as building units. Nonetheless, these networks designed with human expertise may not achieve an optimal trade-off in an expansive search space. In this paper, we propose to leverage recent advances in differentiable neural architecture search to discover more efficient networks. Our searched model attains 97.2% top-1 accuracy on Google Speech Command Dataset v1 with only nearly 100K parameters.</dcterms:abstract>
+        <dc:date>2021-02-22</dc:date>
+        <z:shortTitle>AutoKWS</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2009.03658</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-12 14:12:16</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2009.03658</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_277">
+       <rdf:value>Comment: ICASSP 2021</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_278">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/278/Zhang et al. - 2021 - AutoKWS Keyword Spotting with Differentiable Arch.pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2009.03658.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-12 14:12:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_279">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/279/2009.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2009.03658</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-12 14:13:07</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2102.07061">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:2102.07061 [cs]</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenName>Jinmiao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gharbieh</foaf:surname>
+                        <foaf:givenName>Waseem</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shim</foaf:surname>
+                        <foaf:givenName>Han Suk</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Eugene</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_285"/>
+        <link:link rdf:resource="#item_286"/>
+        <link:link rdf:resource="#item_287"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Query-by-Example Keyword Spotting system using Multi-head Attention and Softtriple Loss</dc:title>
+        <dcterms:abstract>This paper proposes a neural network architecture for tackling the query-by-example user-defined keyword spotting task. A multi-head attention module is added on top of a multi-layered GRU for effective feature extraction, and a normalized multi-head attention module is proposed for feature aggregation. We also adopt the softtriple loss - a combination of triplet loss and softmax loss - and showcase its effectiveness. We demonstrate the performance of our model on internal datasets with different languages and the public Hey-Snips dataset. We compare the performance of our model to a baseline system and conduct an ablation study to show the benefit of each component in our architecture. The proposed work shows solid performance while preserving simplicity.</dcterms:abstract>
+        <dc:date>2021-05-07</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2102.07061</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 09:17:22</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2102.07061</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_285">
+       <rdf:value>Comment: Accepted by ICASSP 2021</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_286">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/286/Huang et al. - 2021 - Query-by-Example Keyword Spotting system using Mul.pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2102.07061.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 09:17:27</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_287">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/287/2102.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2102.07061</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 09:17:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-5090-6631-5">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-5090-6631-5</dc:identifier>
+                <dc:title>ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</dc:title>
+                <dc:identifier>DOI 10.1109/ICASSP40776.2020.9053009</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Barcelona, Spain</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hou</foaf:surname>
+                        <foaf:givenName>Jingyong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shi</foaf:surname>
+                        <foaf:givenName>Yangyang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ostendorf</foaf:surname>
+                        <foaf:givenName>Mari</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hwang</foaf:surname>
+                        <foaf:givenName>Mei-Yuh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xie</foaf:surname>
+                        <foaf:givenName>Lei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_288"/>
+        <dc:title>Mining Effective Negative Training Samples for Keyword Spotting</dc:title>
+        <dcterms:abstract>Max-pooling neural network architectures have been proven to be useful for keyword spotting (KWS), but standard training methods suffer from a class-imbalance problem when using all frames from negative utterances. To address the problem, we propose an innovative algorithm, Regional Hard-Example (RHE) mining, to ﬁnd effective negative training samples, in order to control the ratio of negative vs. positive data. To maintain the diversity of the negative samples, multiple non-contiguous difﬁcult frames per negative training utterance are dynamically selected during training, based on the model statistics at each training epoch. Further, to improve model learning, we introduce a weakly constrained max-pooling method for positive training utterances, which constrains max-pooling over the keyword ending frames only at early stages of training. Finally, data augmentation is combined to bring further improvement. We assess the algorithms by conducting experiments on wake-up word detection tasks with two different neural network architectures. The experiments consistently show that the proposed methods provide signiﬁcant improvements compared to a strong baseline. At a false alarm rate of once per hour, our methods achieve 45-58% relative reduction in false rejection rates over a strong baseline.</dcterms:abstract>
+        <dc:date>5/2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9053009/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:01:56</dcterms:dateSubmitted>
+        <bib:pages>7444-7448</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_288">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/288/Hou et al. - 2020 - Mining Effective Negative Training Samples for Key.pdf"/>
+        <dc:title>Hou et al. - 2020 - Mining Effective Negative Training Samples for Key.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://lxie.nwpu-aslp.org/papers/2020ICASSP_HJY.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:01:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_290">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</dc:title>
+                <dc:identifier>DOI 10.1109/ICASSP40776.2020.9054538</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ji</foaf:surname>
+                        <foaf:givenName>Xuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Meng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Jie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zheng</foaf:surname>
+                        <foaf:givenName>Jimeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Su</foaf:surname>
+                        <foaf:givenName>Dan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Dong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_293"/>
+        <link:link rdf:resource="#item_291"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>attention</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computational modeling</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Index Terms: KWS</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Microphones</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>multi-look beamforming</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Noise measurement</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Reliability</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Signal processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Smart devices</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Speech enhancement</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Integration of Multi-Look Beamformers for Multi-Channel Keyword Spotting</dc:title>
+        <dcterms:abstract>Keyword spotting (KWS) is in great demand in smart devices in the era of Internet of Things. Albeit recent progresses, the performance of KWS, measured in false alarms and false rejects, may still degrade significantly under the far field and noisy conditions. In this paper, we propose integrating multiple beamformed signals and a microphone signal as input to an end-to-end KWS model and leveraging the attention mechanism to dynamically tune the model's attention to the reliable input sources. We demonstrate, on our large simulated and recorded noisy and far-field evaluation sets, that our proposed approach significantly improves the KWS performance and reduces the computation cost against the baseline KWS systems.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <dc:description>ISSN: 2379-190X</dc:description>
+        <bib:pages>7464-7468</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_293">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/293/9054538.html"/>
+        <dc:title>IEEE Xplore Abstract Record</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9054538?arnumber=9054538</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:04:14</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_291">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/291/Ji et al. - 2020 - Integration of Multi-Look Beamformers for Multi-Ch.pdf"/>
+        <dc:title>IEEE Xplore Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&amp;arnumber=9054538&amp;ref=aHR0cHM6Ly9pZWVleHBsb3JlLmllZWUub3JnL3N0YW1wL3N0YW1wLmpzcD90cD0mYXJudW1iZXI9OTA1NDUzOA==</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:03:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1911.02086">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:1911.02086 [cs, eess]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mittermaier</foaf:surname>
+                        <foaf:givenName>Simon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kürzinger</foaf:surname>
+                        <foaf:givenName>Ludwig</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Waschneck</foaf:surname>
+                        <foaf:givenName>Bernd</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rigoll</foaf:surname>
+                        <foaf:givenName>Gerhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_295"/>
+        <link:link rdf:resource="#item_292"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Small-Footprint Keyword Spotting on Raw Audio Data with Sinc-Convolutions</dc:title>
+        <dcterms:abstract>We train and evaluate our model using Google’s Speech Commands data set [19], an established dataset for benchmarking KWS systems. The ﬁrst version of the data set consists of 65k one-second long utterances of 30 different keywords spoken by 1881 different speakers. The most common setup consists of a classiﬁcation of 12 classes: “yes”, “no”, “up”, “down”, “left”, “right”, “on”, “off”, “stop”, “go”, unknown, or silence.</dcterms:abstract>
+        <dc:date>2020-05-03</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1911.02086</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:04:31</dcterms:dateSubmitted>
+        <dc:description>arXiv: 1911.02086</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_295">
+       <rdf:value>Comment: Accepted at ICASSP 2020</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_292">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/292/Mittermaier et al. - 2020 - Small-Footprint Keyword Spotting on Raw Audio Data.pdf"/>
+        <dc:title>Mittermaier et al. - 2020 - Small-Footprint Keyword Spotting on Raw Audio Data.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://arxiv.org/pdf/1911.02086.pdf?ref=https://githubhelp.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:04:08</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_296">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</dc:title>
+                <dc:identifier>DOI 10.1109/ICASSP40776.2020.9053191</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sharma</foaf:surname>
+                        <foaf:givenName>Eva</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ye</foaf:surname>
+                        <foaf:givenName>Guoli</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wei</foaf:surname>
+                        <foaf:givenName>Wenning</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhao</foaf:surname>
+                        <foaf:givenName>Rui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tian</foaf:surname>
+                        <foaf:givenName>Yao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Jian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenName>Lei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenName>Ed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gong</foaf:surname>
+                        <foaf:givenName>Yifan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_298"/>
+        <link:link rdf:resource="#item_297"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Training data</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>adaptation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Adaptation models</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data models</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>keyword spotting</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Natural languages</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>RNN-T</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Speech processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>speech recognition</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Speech recognition</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>text-to-speech</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Transducers</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Adaptation of RNN Transducer with Text-To-Speech Technology for Keyword Spotting</dc:title>
+        <dcterms:abstract>With the advent of recurrent neural network transducer (RNN-T) model, the performance of keyword spotting (KWS) systems has greatly improved. However, the KWS systems, employed for wake-word detection, still rely on the availability of keyword specific training data for achieving reasonable performance on each keyword. With a goal to improve the KWS performance for these keywords without having to collect additional natural speech data, we explore Text-To-Speech (TTS) technology to synthetically generate training data for such keywords. Employing an RNN-T based KWS model, already well trained on large keyword-independent natural speech dataset, as a seed model, we run adaptation experiments using the generated keyword-specific TTS data. Besides observing a considerable improvement in the overall performance for the low-resource keywords, we find that the performance improvement with TTS-generated training data, similar to natural speech data, depends on speaker diversity, amount of data per speaker and data simulation. We get additional improvement in performance by selectively adapting specific parts of the RNN-T model and gain key insights into different architectural constructs of RNN-T model.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <dc:description>ISSN: 2379-190X</dc:description>
+        <bib:pages>7484-7488</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_298">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/298/9053191.html"/>
+        <dc:title>IEEE Xplore Abstract Record</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9053191?arnumber=9053191</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:05:50</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_297">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/297/Sharma et al. - 2020 - Adaptation of RNN Transducer with Text-To-Speech T.pdf"/>
+        <dc:title>IEEE Xplore Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&amp;arnumber=9053191&amp;ref=aHR0cHM6Ly9pZWVleHBsb3JlLmllZWUub3JnL3N0YW1wL3N0YW1wLmpzcD90cD0mYXJudW1iZXI9OTA1MzE5MQ==</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:05:35</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2005.10386">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:2005.10386 [cs, eess]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Meng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ji</foaf:surname>
+                        <foaf:givenName>Xuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Bo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Su</foaf:surname>
+                        <foaf:givenName>Dan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Dong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_301"/>
+        <link:link rdf:resource="#item_299"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>End-to-End Multi-Look Keyword Spotting</dc:title>
+        <dcterms:abstract>The performance of keyword spotting (KWS), measured in false alarms and false rejects, degrades signiﬁcantly under the far ﬁeld and noisy conditions. In this paper, we propose a multilook neural network modeling for speech enhancement which simultaneously steers to listen to multiple sampled look directions. The multi-look enhancement is then jointly trained with KWS to form an end-to-end KWS model which integrates the enhanced signals from multiple look directions and leverages an attention mechanism to dynamically tune the model’s attention to the reliable sources. We demonstrate, on our large noisy and far-ﬁeld evaluation sets, that the proposed approach signiﬁcantly improves the KWS performance against the baseline KWS system and a recent beamformer based multi-beam KWS system.</dcterms:abstract>
+        <dc:date>2020-05-20</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2005.10386</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:06:40</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2005.10386</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_301">
+       <rdf:value>Comment: Submitted to Interspeech2020</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_299">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/299/Yu et al. - 2020 - End-to-End Multi-Look Keyword Spotting.pdf"/>
+        <dc:title>Yu et al. - 2020 - End-to-End Multi-Look Keyword Spotting.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://arxiv.org/pdf/2005.10386.pdf?ref=https://githubhelp.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:06:34</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2009.00165">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Interspeech 2020</dc:title>
+                <dc:identifier>DOI 10.21437/Interspeech.2020-3132</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mo</foaf:surname>
+                        <foaf:givenName>Tong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Yakun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Salameh</foaf:surname>
+                        <foaf:givenName>Mohammad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Niu</foaf:surname>
+                        <foaf:givenName>Di</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jui</foaf:surname>
+                        <foaf:givenName>Shangling</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_304"/>
+        <link:link rdf:resource="#item_302"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Neural Architecture Search For Keyword Spotting</dc:title>
+        <dcterms:abstract>Deep neural networks have recently become a popular solution to keyword spotting systems, which enable the control of smart devices via voice. In this paper, we apply neural architecture search to search for convolutional neural network models that can help boost the performance of keyword spotting based on features extracted from acoustic signals while maintaining an acceptable memory footprint. Speciﬁcally, we use differentiable architecture search techniques to search for operators and their connections in a predeﬁned cell search space. The found cells are then scaled up in both depth and width to achieve competitive performance. We evaluated the proposed method on Google’s Speech Commands Dataset and achieved a state-ofthe-art accuracy of over 97% on the setting of 12-class utterance classiﬁcation commonly reported in the literature.</dcterms:abstract>
+        <dc:date>2020-10-25</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2009.00165</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:06:51</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2009.00165</dc:description>
+        <bib:pages>1982-1986</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_304">
+       <rdf:value>Comment: will be presented in INTERSPEECH 2020</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_302">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/302/Mo et al. - 2020 - Neural Architecture Search For Keyword Spotting.pdf"/>
+        <dc:title>Mo et al. - 2020 - Neural Architecture Search For Keyword Spotting.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://arxiv.org/pdf/2009.00165.pdf?ref=https://githubhelp.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:06:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2005.03867">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:2005.03867 [cs, eess]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jung</foaf:surname>
+                        <foaf:givenName>Myunghun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jung</foaf:surname>
+                        <foaf:givenName>Youngmoon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goo</foaf:surname>
+                        <foaf:givenName>Jahyun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Hoirin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_307"/>
+        <link:link rdf:resource="#item_305"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Multi-Task Network for Noise-Robust Keyword Spotting and Speaker Verification using CTC-based Soft VAD and Global Query Attention</dc:title>
+        <dcterms:abstract>Keyword spotting (KWS) and speaker verification (SV) have been studied independently although it is known that acoustic and speaker domains are complementary. In this paper, we propose a multi-task network that performs KWS and SV simultaneously to fully utilize the interrelated domain information. The multi-task network tightly combines sub-networks aiming at performance improvement in challenging conditions such as noisy environments, open-vocabulary KWS, and short-duration SV, by introducing novel techniques of connectionist temporal classification (CTC)-based soft voice activity detection (VAD) and global query attention. Frame-level acoustic and speaker information is integrated with phonetically originated weights so that forms a word-level global representation. Then it is used for the aggregation of feature vectors to generate discriminative embeddings. Our proposed approach shows 4.06% and 26.71% relative improvements in equal error rate (EER) compared to the baselines for both tasks. We also present a visualization example and results of ablation experiments.</dcterms:abstract>
+        <dc:date>2020-08-07</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2005.03867</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:07:12</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2005.03867</dc:description>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>INTERSPEECH 2020</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_307">
+       <rdf:value>Comment: Accepted to Interspeech 2020</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_305">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/305/Jung et al. - 2020 - Multi-Task Network for Noise-Robust Keyword Spotti.pdf"/>
+        <dc:title>Jung et al. - 2020 - Multi-Task Network for Noise-Robust Keyword Spotti.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://arxiv.org/pdf/2005.03867.pdf?ref=https://githubhelp.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:07:07</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2010.09960">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:2010.09960 [cs, eess]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Ximin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wei</foaf:surname>
+                        <foaf:givenName>Xiaodong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qin</foaf:surname>
+                        <foaf:givenName>Xiaowei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_311"/>
+        <link:link rdf:resource="#item_308"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Small-Footprint Keyword Spotting with Multi-Scale Temporal Convolution</dc:title>
+        <dcterms:abstract>Keyword Spotting (KWS) plays a vital role in human-computer interaction for smart on-device terminals and service robots. It remains challenging to achieve the trade-off between small footprint and high accuracy for KWS task. In this paper, we explore the application of multi-scale temporal modeling to the small-footprint keyword spotting task. We propose a multi-branch temporal convolution module (MTConv), a CNN block consisting of multiple temporal convolution filters with different kernel sizes, which enriches temporal feature space. Besides, taking advantage of temporal and depthwise convolution, a temporal efficient neural network (TENet) is designed for KWS system. Based on the purposed model, we replace standard temporal convolution layers with MTConvs that can be trained for better performance. While at the inference stage, the MTConv can be equivalently converted to the base convolution architecture, so that no extra parameters and computational costs are added compared to the base model. The results on Google Speech Command Dataset show that one of our models trained with MTConv performs the accuracy of 96.8% with only 100K parameters.</dcterms:abstract>
+        <dc:date>2020-10-19</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2010.09960</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:08:02</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2010.09960</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_311">
+       <rdf:value>Comment: Accepted in INTERSPEECH 2020</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_308">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/308/Li et al. - 2020 - Small-Footprint Keyword Spotting with Multi-Scale .pdf"/>
+        <dc:title>Li et al. - 2020 - Small-Footprint Keyword Spotting with Multi-Scale .pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://arxiv.org/pdf/2010.09960.pdf?ref=https://githubhelp.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:07:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2005.06720">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Interspeech 2020</dc:title>
+                <dc:identifier>DOI 10.21437/Interspeech.2020-1003</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rybakov</foaf:surname>
+                        <foaf:givenName>Oleg</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kononenko</foaf:surname>
+                        <foaf:givenName>Natasha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Subrahmanya</foaf:surname>
+                        <foaf:givenName>Niranjan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Visontai</foaf:surname>
+                        <foaf:givenName>Mirko</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Laurenzo</foaf:surname>
+                        <foaf:givenName>Stella</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_309"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Streaming keyword spotting on mobile devices</dc:title>
+        <dcterms:abstract>In this work we explore the latency and accuracy of keyword spotting (KWS) models in streaming and non-streaming modes on mobile phones. NN model conversion from non-streaming mode (model receives the whole input sequence and then returns the classification result) to streaming mode (model receives portion of the input sequence and classifies it incrementally) may require manual model rewriting. We address this by designing a Tensorflow/Keras based library which allows automatic conversion of non-streaming models to streaming ones with minimum effort. With this library we benchmark multiple KWS models in both streaming and non-streaming modes on mobile phones and demonstrate different tradeoffs between latency and accuracy. We also explore novel KWS models with multi-head attention which reduce the classification error over the state-of-art by 10% on Google speech commands data sets V2. The streaming library with all experiments is open-sourced.</dcterms:abstract>
+        <dc:date>2020-10-25</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2005.06720</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:08:09</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2005.06720</dc:description>
+        <bib:pages>2277-2281</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_309">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/309/Rybakov et al. - 2020 - Streaming keyword spotting on mobile devices.pdf"/>
+        <dc:title>Rybakov et al. - 2020 - Streaming keyword spotting on mobile devices.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://arxiv.org/pdf/2005.06720.pdf?ref=https://githubhelp.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:08:00</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.isca-speech.org/archive/interspeech_2020/liu20j_interspeech.html">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Interspeech 2020</dc:title>
+                <dc:identifier>DOI 10.21437/Interspeech.2020-1262</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ISCA</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Hongyi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abhyankar</foaf:surname>
+                        <foaf:givenName>Apurva</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mishchenko</foaf:surname>
+                        <foaf:givenName>Yuriy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sénéchal</foaf:surname>
+                        <foaf:givenName>Thibaud</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fu</foaf:surname>
+                        <foaf:givenName>Gengshen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kulis</foaf:surname>
+                        <foaf:givenName>Brian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stein</foaf:surname>
+                        <foaf:givenName>Noah D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shah</foaf:surname>
+                        <foaf:givenName>Anish</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vitaladevuni</foaf:surname>
+                        <foaf:givenName>Shiv Naga Prasad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_313"/>
+        <dc:title>Metadata-Aware End-to-End Keyword Spotting</dc:title>
+        <dcterms:abstract>As a crucial part of Alexa products, our on-device keyword spotting system detects the wakeword in conversation and initiates subsequent user-device interactions. Convolutional neural networks (CNNs) have been widely used to model the relationship between time and frequency in the audio spectrum. However, it is not obvious how to appropriately leverage the rich descriptive information from device state metadata (such as player state, device type, volume, etc) in a CNN architecture. In this paper, we propose to use metadata information as an additional input feature to improve the performance of a single CNN keywordspotting model under different conditions. We design a new network architecture for metadata-aware end-to-end keyword spotting which learns to convert the categorical metadata to a ﬁxed length embedding, and then uses the embedding to: 1) modulate convolutional feature maps via conditional batch normalization, and 2) contribute to the fully connected layer via feature concatenation. The experiment shows that the proposed architecture is able to learn the meta-speciﬁc characteristics from combined datasets, and the best candidate achieves an average relative false reject rate (FRR) improvement of 14.63% at the same false accept rate (FAR) compared with CNN that does not use device state metadata.</dcterms:abstract>
+        <dc:date>2020-10-25</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.isca-speech.org/archive/interspeech_2020/liu20j_interspeech.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:08:34</dcterms:dateSubmitted>
+        <bib:pages>2282-2286</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Interspeech 2020</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_313">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/313/Liu et al. - 2020 - Metadata-Aware End-to-End Keyword Spotting.pdf"/>
+        <dc:title>Liu et al. - 2020 - Metadata-Aware End-to-End Keyword Spotting.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.interspeech2020.org/uploadfile/pdf/Wed-1-8-2.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:08:29</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2004.12200">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Interspeech 2020</dc:title>
+                <dc:identifier>DOI 10.21437/Interspeech.2020-1045</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenName>Menglong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Xiao-Lei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_316"/>
+        <link:link rdf:resource="#item_318"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Depthwise Separable Convolutional ResNet with Squeeze-and-Excitation Blocks for Small-footprint Keyword Spotting</dc:title>
+        <dcterms:abstract>One difficult problem of keyword spotting is how to miniaturize its memory footprint while maintain a high precision. Although convolutional neural networks have shown to be effective to the small-footprint keyword spotting problem, they still need hundreds of thousands of parameters to achieve good performance. In this paper, we propose an efficient model based on depthwise separable convolution layers and squeeze-and-excitation blocks. Specifically, we replace the standard convolution by the depthwise separable convolution, which reduces the number of the parameters of the standard convolution without significant performance degradation. We further improve the performance of the depthwise separable convolution by reweighting the output feature maps of the first convolution layer with a so-called squeeze-and-excitation block. We compared the proposed method with five representative models on two experimental settings of the Google Speech Commands dataset. Experimental results show that the proposed method achieves the state-of-the-art performance. For example, it achieves a classification error rate of 3.29% with a number of parameters of 72K in the first experiment, which significantly outperforms the comparison methods given a similar model size. It achieves an error rate of 3.97% with a number of parameters of 10K, which is also slightly better than the state-of-the-art comparison method given a similar model size.</dcterms:abstract>
+        <dc:date>2020-10-25</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2004.12200</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:09:09</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2004.12200</dc:description>
+        <bib:pages>2547-2551</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_316">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/316/Xu and Zhang - 2020 - Depthwise Separable Convolutional ResNet with Sque.pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2004.12200.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:09:19</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_318">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/318/2004.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2004.12200</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:09:37</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.isca-speech.org/archive/interspeech_2020/ylmaz20_interspeech.html">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Interspeech 2020</dc:title>
+                <dc:identifier>DOI 10.21437/Interspeech.2020-1230</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ISCA</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yılmaz</foaf:surname>
+                        <foaf:givenName>Emre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gevrek</foaf:surname>
+                        <foaf:givenName>Özgür Bora</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Jibin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Yuxiang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Meng</foaf:surname>
+                        <foaf:givenName>Xuanbo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Haizhou</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_317"/>
+        <dc:title>Deep Convolutional Spiking Neural Networks for Keyword Spotting</dc:title>
+        <dcterms:abstract>This paper investigates the use of deep convolutional spiking neural networks (SNN) for keyword spotting (KWS) and wakeword detection tasks. The brain-inspired SNN mimic the spike-based information processing of biological neural networks and they can operate on the emerging ultra-low power neuromorphic chips. Unlike conventional artiﬁcial neural networks (ANN), SNN process input information asynchronously in an event-driven manner. With temporally sparse input information, this event-driven processing substantially reduces the computational requirements compared to the synchronous computation performed in ANN-based KWS approaches. To explore the effectiveness and computational complexity of SNN on KWS and wakeword detection, we compare the performance and computational costs of spiking fully-connected and convolutional neural networks with ANN counterparts under clean and noisy testing conditions. The results obtained on the Speech Commands and Hey Snips corpora have shown the effectiveness of the convolutional SNN model compared to a conventional CNN with comparable performance on KWS and better performance on the wakeword detection task. With its competitive performance and reduced computational complexity, convolutional SNN models running on energy-efﬁcient neuromorphic hardware offer a low-power and effective solution for mobile KWS applications.</dcterms:abstract>
+        <dc:date>2020-10-25</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.isca-speech.org/archive/interspeech_2020/ylmaz20_interspeech.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:09:40</dcterms:dateSubmitted>
+        <bib:pages>2557-2561</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Interspeech 2020</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_317">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/317/Yılmaz et al. - 2020 - Deep Convolutional Spiking Neural Networks for Key.pdf"/>
+        <dc:title>Yılmaz et al. - 2020 - Deep Convolutional Spiking Neural Networks for Key.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.interspeech2020.org/uploadfile/pdf/Wed-2-2-3.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:09:34</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2005.03633">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:2005.03633 [cs, eess]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Haiwei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jia</foaf:surname>
+                        <foaf:givenName>Yan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nie</foaf:surname>
+                        <foaf:givenName>Yuanfei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Ming</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_321"/>
+        <link:link rdf:resource="#item_322"/>
+        <link:link rdf:resource="#item_323"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Domain Aware Training for Far-field Small-footprint Keyword Spotting</dc:title>
+        <dcterms:abstract>In this paper, we focus on the task of small-footprint keyword spotting under the far-field scenario. Far-field environments are commonly encountered in real-life speech applications, causing severe degradation of performance due to room reverberation and various kinds of noises. Our baseline system is built on the convolutional neural network trained with pooled data of both far-field and close-talking speech. To cope with the distortions, we develop three domain aware training systems, including the domain embedding system, the deep CORAL system, and the multi-task learning system. These methods incorporate domain knowledge into network training and improve the performance of the keyword classifier on far-field conditions. Experimental results show that our proposed methods manage to maintain the performance on the close-talking speech and achieve significant improvement on the far-field test set.</dcterms:abstract>
+        <dc:date>2020-08-07</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2005.03633</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:10:17</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2005.03633</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_321">
+       <rdf:value>Comment: Submitted to INTERSPEECH 2020</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_322">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/322/Wu et al. - 2020 - Domain Aware Training for Far-field Small-footprin.pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2005.03633.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:10:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_323">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/323/2005.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2005.03633</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:10:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1912.07575">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:1912.07575 [cs]</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bluche</foaf:surname>
+                        <foaf:givenName>Theodore</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gisselbrecht</foaf:surname>
+                        <foaf:givenName>Thibault</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_325"/>
+        <link:link rdf:resource="#item_326"/>
+        <link:link rdf:resource="#item_327"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Predicting detection filters for small footprint open-vocabulary keyword spotting</dc:title>
+        <dcterms:abstract>In this paper, we propose a fully-neural approach to open-vocabulary keyword spotting, that allows the users to include a customizable voice interface to their device and that does not require task-specific data. We present a keyword detection neural network weighing less than 250KB, in which the topmost layer performing keyword detection is predicted by an auxiliary network, that may be run offline to generate a detector for any keyword. We show that the proposed model outperforms acoustic keyword spotting baselines by a large margin on two tasks of detecting keywords in utterances and three tasks of detecting isolated speech commands. We also propose a method to fine-tune the model when specific training data is available for some keywords, which yields a performance similar to a standard speech command neural network while keeping the ability of the model to be applied to new keywords.</dcterms:abstract>
+        <dc:date>2020-09-29</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1912.07575</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:10:39</dcterms:dateSubmitted>
+        <dc:description>arXiv: 1912.07575</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_325">
+       <rdf:value>Comment: Submtted to Interspeech 2020</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_326">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/326/Bluche and Gisselbrecht - 2020 - Predicting detection filters for small footprint o.pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/1912.07575.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:10:49</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_327">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/327/1912.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1912.07575</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:10:59</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.isca-speech.org/archive/interspeech_2020/zhang20u_interspeech.html">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Interspeech 2020</dc:title>
+                <dc:identifier>DOI 10.21437/Interspeech.2020-1644</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ISCA</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Kun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Zhiyong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yuan</foaf:surname>
+                        <foaf:givenName>Daode</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Luan</foaf:surname>
+                        <foaf:givenName>Jian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jia</foaf:surname>
+                        <foaf:givenName>Jia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Meng</foaf:surname>
+                        <foaf:givenName>Helen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Song</foaf:surname>
+                        <foaf:givenName>Binheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_328"/>
+        <dc:title>Re-Weighted Interval Loss for Handling Data Imbalance Problem of End-to-End Keyword Spotting</dc:title>
+        <dcterms:abstract>The training process of end-to-end keyword spotting (KWS) suffers from critical data imbalance problem that positive samples are far less than negative samples where different negative samples are not of equal importances. During decoding, false alarms are mainly caused by a small number of important negative samples having pronunciation similar to the keyword; however, the training loss is dominated by the majority of negative samples whose pronunciation is not related to the keyword, called unimportant negative samples. This inconsistency greatly degrades the performance of KWS and existing methods like focal loss don’t discriminate between the two kinds of negative samples. To deal with the problem, we propose a novel re-weighted interval loss to re-weight sample loss considering the performance of the classiﬁer over local interval of negative utterance, which automatically down-weights the losses of unimportant negative samples and focuses training on important negative samples that are prone to produce false alarms during decoding. Evaluations on Hey Snips dataset demonstrate that our approach has yielded a superior performance over focal loss baseline with 34% (@0.5 false alarm per hour) relative reduction of false reject rate.</dcterms:abstract>
+        <dc:date>2020-10-25</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.isca-speech.org/archive/interspeech_2020/zhang20u_interspeech.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:11:15</dcterms:dateSubmitted>
+        <bib:pages>2567-2571</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Interspeech 2020</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_328">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/328/Zhang et al. - 2020 - Re-Weighted Interval Loss for Handling Data Imbala.pdf"/>
+        <dc:title>Zhang et al. - 2020 - Re-Weighted Interval Loss for Handling Data Imbala.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.interspeech2020.org/uploadfile/pdf/Wed-2-2-5.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:11:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.isca-speech.org/archive/interspeech_2020/zhang20v_interspeech.html">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Interspeech 2020</dc:title>
+                <dc:identifier>DOI 10.21437/Interspeech.2020-1761</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ISCA</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Peng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Xueliang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_330"/>
+        <dc:title>Deep Template Matching for Small-Footprint and Configurable Keyword Spotting</dc:title>
+        <dc:date>2020-10-25</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.isca-speech.org/archive/interspeech_2020/zhang20v_interspeech.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:11:29</dcterms:dateSubmitted>
+        <bib:pages>2572-2576</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Interspeech 2020</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_330">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/330/Zhang and Zhang - 2020 - Deep Template Matching for Small-Footprint and Con.pdf"/>
+        <dc:title>Zhang and Zhang - 2020 - Deep Template Matching for Small-Footprint and Con.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.interspeech2020.org/uploadfile/pdf/Wed-2-2-6.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:11:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.isca-speech.org/archive/interspeech_2020/yang20d_interspeech.html">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Interspeech 2020</dc:title>
+                <dc:identifier>DOI 10.21437/Interspeech.2020-2185</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ISCA</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Chen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wen</foaf:surname>
+                        <foaf:givenName>Xue</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Song</foaf:surname>
+                        <foaf:givenName>Liming</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_332"/>
+        <dc:title>Multi-Scale Convolution for Robust Keyword Spotting</dc:title>
+        <dcterms:abstract>We propose a robust small-footprint keyword spotting system for resource-constrained devices. Small footprint is achieved by the use of depthwise-separable convolutions in a ResNet framework. Noise robustness is achieved with a multi-scale ensemble of classifiers: each classifier is specialized for a different view of the input, while the whole ensemble remains compact in size by heavy parameter sharing. Extensive experiments on public Google Command dataset demonstrate the effectiveness of our proposed method.</dcterms:abstract>
+        <dc:date>2020-10-25</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.isca-speech.org/archive/interspeech_2020/yang20d_interspeech.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:11:47</dcterms:dateSubmitted>
+        <bib:pages>2577-2581</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Interspeech 2020</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_332">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/332/Yang et al. - 2020 - Multi-Scale Convolution for Robust Keyword Spottin.pdf"/>
+        <dc:title>Yang et al. - 2020 - Multi-Scale Convolution for Robust Keyword Spottin.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.interspeech2020.org/uploadfile/pdf/Wed-2-2-7.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:11:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.isca-speech.org/archive/interspeech_2020/opatka20_interspeech.html">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Interspeech 2020</dc:title>
+                <dc:identifier>DOI 10.21437/Interspeech.2020-2722</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ISCA</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Łopatka</foaf:surname>
+                        <foaf:givenName>Kuba</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bocklet</foaf:surname>
+                        <foaf:givenName>Tobias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_334"/>
+        <dc:title>State Sequence Pooling Training of Acoustic Models for Keyword Spotting</dc:title>
+        <dcterms:abstract>We propose a new training method to improve HMM-based keyword spotting. The loss function is based on a score computed with the keyword/ﬁller model from the entire input sequence. It is equivalent to max/attention pooling but is based on prior acoustic knowledge. We also employ a multi-task learning setup by predicting both LVCSR and keyword posteriors. We compare our model to a baseline trained on frame-wise cross entropy, with and without per-class weighting. We employ a lowfootprint TDNN for acoustic modeling. The proposed training yields signiﬁcant and consistent improvement over the baseline in adverse noise conditions. The FRR on cafeteria noise is reduced from 13.07% to 5.28% at 9 dB SNR and from 37.44% to 6.78% at 5 dB SNR. We obtain these results with only 600 unique training keyword samples. The training method is independent of the frontend and acoustic model topology.</dcterms:abstract>
+        <dc:date>2020-10-25</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.isca-speech.org/archive/interspeech_2020/opatka20_interspeech.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:12:18</dcterms:dateSubmitted>
+        <bib:pages>4338-4342</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Interspeech 2020</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_334">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/334/Thu-2-8-1.pdf"/>
+        <dc:title>Thu-2-8-1.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.interspeech2020.org/uploadfile/pdf/Thu-2-8-1.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:12:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2005.10406">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:2005.10406 [cs, eess]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hard</foaf:surname>
+                        <foaf:givenName>Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Partridge</foaf:surname>
+                        <foaf:givenName>Kurt</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nguyen</foaf:surname>
+                        <foaf:givenName>Cameron</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Subrahmanya</foaf:surname>
+                        <foaf:givenName>Niranjan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shah</foaf:surname>
+                        <foaf:givenName>Aishanee</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenName>Pai</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moreno</foaf:surname>
+                        <foaf:givenName>Ignacio Lopez</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mathews</foaf:surname>
+                        <foaf:givenName>Rajiv</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_338"/>
+        <link:link rdf:resource="#item_336"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Training Keyword Spotting Models on Non-IID Data with Federated Learning</dc:title>
+        <dcterms:abstract>We demonstrate that a production-quality keyword-spotting model can be trained on-device using federated learning and achieve comparable false accept and false reject rates to a centrally-trained model. To overcome the algorithmic constraints associated with ﬁtting on-device data (which are inherently non-independent and identically distributed), we conduct thorough empirical studies of optimization algorithms and hyperparameter conﬁgurations using large-scale federated simulations. To overcome resource constraints, we replace memoryintensive MTR data augmentation with SpecAugment, which reduces the false reject rate by 56%. Finally, to label examples (given the zero visibility into on-device data), we explore teacher-student training.</dcterms:abstract>
+        <dc:date>2020-06-04</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2005.10406</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:14:39</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2005.10406</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_338">
+       <rdf:value>Comment: Submitted to Interspeech 2020</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_336">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/336/Hard et al. - 2020 - Training Keyword Spotting Models on Non-IID Data w.pdf"/>
+        <dc:title>Hard et al. - 2020 - Training Keyword Spotting Models on Non-IID Data w.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://arxiv.org/pdf/2005.10406.pdf?ref=https://githubhelp.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:14:33</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2011.01151">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:2011.01151 [cs, eess]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shrivastava</foaf:surname>
+                        <foaf:givenName>Ashish</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kundu</foaf:surname>
+                        <foaf:givenName>Arnav</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dhir</foaf:surname>
+                        <foaf:givenName>Chandra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Naik</foaf:surname>
+                        <foaf:givenName>Devang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tuzel</foaf:surname>
+                        <foaf:givenName>Oncel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_341"/>
+        <link:link rdf:resource="#item_339"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Optimize what matters: Training DNN-HMM Keyword Spotting Model Using End Metric</dc:title>
+        <dcterms:abstract>Deep Neural Network–Hidden Markov Model (DNN-HMM) based methods have been successfully used for many alwayson keyword spotting algorithms that detect a wake word to trigger a device. The DNN predicts the state probabilities of a given speech frame, while HMM decoder combines the DNN predictions of multiple speech frames to compute the keyword detection score. The DNN, in prior methods, is trained independent of the HMM parameters to minimize the cross-entropy loss between the predicted and the ground-truth state probabilities. The mis-match between the DNN training loss (cross-entropy) and the end metric (detection score) is the main source of sub-optimal performance for the keyword spotting task. We address this loss-metric mismatch with a novel end-to-end training strategy that learns the DNN parameters by optimizing for the detection score. To this end, we make the HMM decoder (dynamic programming) differentiable and back-propagate through it to maximize the score for the keyword and minimize the scores for non-keyword speech segments. Our method does not require any change in the model architecture or the inference framework; therefore, there is no overhead in run-time memory or compute requirements. Moreover, we show signiﬁcant reduction in false rejection rate (FRR) at the same false trigger experience (&gt; 70% over independent DNN training).</dcterms:abstract>
+        <dc:date>2021-02-25</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Optimize what matters</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2011.01151</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:14:55</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2011.01151</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_341">
+       <rdf:value>Comment: Accepted at ICASSP 2021</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_339">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/339/Shrivastava et al. - 2021 - Optimize what matters Training DNN-HMM Keyword Sp.pdf"/>
+        <dc:title>Shrivastava et al. - 2021 - Optimize what matters Training DNN-HMM Keyword Sp.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://arxiv.org/pdf/2011.01151.pdf?ref=https://githubhelp.com</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:14:49</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-72817-605-5">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-72817-605-5</dc:identifier>
+                <dc:title>ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</dc:title>
+                <dc:identifier>DOI 10.1109/ICASSP39728.2021.9414339</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Toronto, ON, Canada</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tian</foaf:surname>
+                        <foaf:givenName>Yao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yao</foaf:surname>
+                        <foaf:givenName>Haitao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cai</foaf:surname>
+                        <foaf:givenName>Meng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Yaming</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ma</foaf:surname>
+                        <foaf:givenName>Zejun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_342"/>
+        <dc:title>Improving RNN Transducer Modeling for Small-Footprint Keyword Spotting</dc:title>
+        <dcterms:abstract>The recurrent neural network transducer (RNN-T) model has been proved effective for keyword spotting (KWS) recently. However, compared with cross-entropy (CE) or connectionist temporal classiﬁcation (CTC) based models, the additional prediction network in the RNN-T model increases the model size and computational cost. Besides, since the keyword training data usually only contain the keyword sequence, the prediction network might has over-ﬁtting problems. In this paper, we improve the RNN-T modeling for small-footprint keyword spotting in three aspects. First, to address the overﬁtting issue, we explore multi-task training where a CTC loss is added to the encoder. The CTC loss is calculated with both KWS data and ASR data, while the RNN-T loss is calculated with ASR data so that only the encoder is augmented with KWS data. Second, we use the feed-forward neural network to replace the LSTM for prediction network modeling. Thus all possible prediction network outputs could be pre-computed for decoding. Third, we further improve the model with transfer learning, where a model trained with 160 thousand hours of ASR data is used to initialize the KWS model. On a self-collected far-ﬁeld wake-word testset, the proposed RNN-T system greatly improves the performance comparing with a strong ”keyword-ﬁller” baseline.</dcterms:abstract>
+        <dc:date>2021-6-6</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9414339/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:15:35</dcterms:dateSubmitted>
+        <bib:pages>5624-5628</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_342">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/342/Tian et al. - 2021 - Improving RNN Transducer Modeling for Small-Footpr.pdf"/>
+        <dc:title>Tian et al. - 2021 - Improving RNN Transducer Modeling for Small-Footpr.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_344">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</dc:title>
+                <dc:identifier>DOI 10.1109/ICASSP39728.2021.9413588</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Zuozhen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Ta</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Pengyuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_349"/>
+        <link:link rdf:resource="#item_347"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Acoustics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computational efficiency</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Conferences</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>constrained attention</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Indoor environment</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>keyword spotting</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>multi-level detection</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>RNN-T</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Signal processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Training</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Transducers</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>RNN-T Based Open-Vocabulary Keyword Spotting in Mandarin with Multi-Level Detection</dc:title>
+        <dcterms:abstract>Despite the recent prevalence of keyword spotting (KWS) in smart-home, open-vocabulary KWS remains a keen but unmet need among the users. In this paper, we propose an RNN Transducer (RNN-T) based keyword spotting system with a constrained attention mechanism biasing module that biases the RNN-T model towards a specific keyword of interest. The atonal syllables are adopted as the modeling units, which addresses the out-of-vocabulary (OOV) problem. A multi-level detection is applied to the posterior probabilities for the judgement. Evaluating on the AISHELL-2 dataset shows our proposed method outperforms the RNN-T-based approach by 2.70% in false reject rate (FRR) at 1 false alarm (FA) per hour. We further provide insights into the role of each stage of the detection cascade, where most negative samples are filtered out by the first stage with high computational efficiency.</dcterms:abstract>
+        <dc:date>2021-06</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <dc:description>ISSN: 2379-190X</dc:description>
+        <bib:pages>5649-5653</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_349">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/349/9413588.html"/>
+        <dc:title>IEEE Xplore Abstract Record</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9413588?arnumber=9413588</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:16:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_347">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/347/Liu et al. - 2021 - RNN-T Based Open-Vocabulary Keyword Spotting in Ma.pdf"/>
+        <dc:title>IEEE Xplore Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&amp;arnumber=9413588&amp;ref=aHR0cHM6Ly9pZWVleHBsb3JlLmllZWUub3JnL3N0YW1wL3N0YW1wLmpzcD90cD0mYXJudW1iZXI9OTQxMzU4OA==</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:16:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2108.01704">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:2108.01704 [cs, eess]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Macoskey</foaf:surname>
+                        <foaf:givenName>Jonathan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Strimel</foaf:surname>
+                        <foaf:givenName>Grant P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rastrow</foaf:surname>
+                        <foaf:givenName>Ariya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_346"/>
+        <link:link rdf:resource="#item_348"/>
+        <link:link rdf:resource="#item_350"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Bifocal Neural ASR: Exploiting Keyword Spotting for Inference Optimization</dc:title>
+        <dcterms:abstract>We present Bifocal RNN-T, a new variant of the Recurrent Neural Network Transducer (RNN-T) architecture designed for improved inference time latency on speech recognition tasks. The architecture enables a dynamic pivot for its runtime compute pathway, namely taking advantage of keyword spotting to select which component of the network to execute for a given audio frame. To accomplish this, we leverage a recurrent cell we call the Bifocal LSTM (BFLSTM), which we detail in the paper. The architecture is compatible with other optimization strategies such as quantization, sparsification, and applying time-reduction layers, making it especially applicable for deployed, real-time speech recognition settings. We present the architecture and report comparative experimental results on voice-assistant speech recognition tasks. Specifically, we show our proposed Bifocal RNN-T can improve inference cost by 29.1% with matching word error rates and only a minor increase in memory size.</dcterms:abstract>
+        <dc:date>2021-08-03</dc:date>
+        <z:shortTitle>Bifocal Neural ASR</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2108.01704</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:16:34</dcterms:dateSubmitted>
+        <dc:description>arXiv: 2108.01704</dc:description>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_346">
+       <rdf:value>Comment: Accepted at ICASSP 2021</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_348">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/348/Macoskey et al. - 2021 - Bifocal Neural ASR Exploiting Keyword Spotting fo.pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2108.01704.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:16:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_350">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/350/2108.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2108.01704</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-15 11:16:59</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_361">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1558-2361"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lim</foaf:surname>
+                        <foaf:givenName>Hyungjun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Younggwan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goo</foaf:surname>
+                        <foaf:givenName>Jahyun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Hoirin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_363"/>
+        <link:link rdf:resource="#item_362"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>acoustic word embedding</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Acoustics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Encoding</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Google</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Interlayer selective attention network (ISAN)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Noise measurement</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Robustness</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Task analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Training data</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Interlayer Selective Attention Network for Robust Personalized Wake-Up Word Detection</dc:title>
+        <dcterms:abstract>Previous research methods on wake-up word detection (WWD) have been proposed with focus on finding a decent word representation that can well express the characteristics of a word. However, there are various obstacles such as noise and reverberation which make it difficult in real-world environments where WWD works. To tackle this, we propose a novel architecture called interlayer selective attention network (ISAN) which generates more robust word representation by introducing the concept of selective attention. Experiments in real-world scenarios demonstrated that the proposed ISAN outperformed several baseline methods as well as other attention methods. In addition, the effectiveness of ISAN was analyzed with visualizations.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <dc:description>Conference Name: IEEE Signal Processing Letters</dc:description>
+        <bib:pages>126-130</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1558-2361">
+        <prism:volume>27</prism:volume>
+        <dc:title>IEEE Signal Processing Letters</dc:title>
+        <dc:identifier>DOI 10.1109/LSP.2019.2959902</dc:identifier>
+        <dc:identifier>ISSN 1558-2361</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_363">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/363/8933100.html"/>
+        <dc:title>IEEE Xplore Abstract Record</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/8933100?arnumber=8933100</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-19 16:18:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_362">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/362/Lim et al. - 2020 - Interlayer Selective Attention Network for Robust .pdf"/>
+        <dc:title>IEEE Xplore Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&amp;arnumber=8933100&amp;ref=aHR0cHM6Ly9pZWVleHBsb3JlLmllZWUub3JnL3N0YW1wL3N0YW1wLmpzcD90cD0mYXJudW1iZXI9ODkzMzEwMA==</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-19 16:18:18</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
