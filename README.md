@@ -1,1 +1,1 @@
-# NKU-2022Spring-NLP-Assignments
+# 2022Spring-NLP-Assignments
